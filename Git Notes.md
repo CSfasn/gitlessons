@@ -82,3 +82,7 @@ we use ```-u``` when our remote repository which is our file on github is the fi
 <r>You can edit code directly on github</r><br/>
 This is useful for small corrections in our code. <br/>
 when you do this, your remote repository is ahead of your local repository. Now you have to sync your local repository with your remote repository. <br/>
+
+<r>Git merge</r><br/>
+We now have ```master branch on remote repository```  and ```master branch on local repository``` <br/>
+
