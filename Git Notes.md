@@ -56,3 +56,29 @@ To see all the commits so far we use ```git log``` command <br/>
 
 <r>To commit all the flags in the current directory</r><br/>
 Use the following command ```git commit -a -m "message" ```<br/>
+
+<r>Git remote add origin</r><br/>
+When you want to sync an online repository in github, first create a repository in github and grab its url. <br/>
+
+Then use the following command <br/>
+```git remote add origin https://github.com/CSfasn/gitlessons.git``` <br/>
+
+now, if you type ```git remote``` in terminal it will say ```origin``` <br/>
+
+<r>If you want to know the url of the repository</r><br/>
+Use the following command ```git remote -v``` <br/>
+
+<r>To see more details</r><br/>
+Use the following command
+```git remote show origin``` <br/>
+
+<r>Pushing local code to remote</r><br/>
+Whatever code we write locally need to be <strong>pushed</strong> to remote and this is the command to do it.
+```git push origin master -u```
+<br/>
+Here ```origin``` refers to the main code in our remote repository and ```master``` refers to the current branch we are on i.e. ```master``` <br/>
+we use ```-u``` when our remote repository which is our file on github is the final source code. 
+<br/>
+<r>You can edit code directly on github</r><br/>
+This is useful for small corrections in our code. <br/>
+when you do this, your remote repository is ahead of your local repository. Now you have to sync your local repository with your remote repository. <br/>
