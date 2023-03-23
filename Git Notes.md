@@ -53,3 +53,6 @@ To see all the commits so far we use ```git log``` command <br/>
 
 
 <r>If you make any changes to tracked files then that file will be shown as ```yellow``` in color</r><br/>
+
+<r>To commit all the flags in the current directory</r><br/>
+Use the following command ```git commit -a -m "message" ```<br/>
