@@ -85,4 +85,45 @@ when you do this, your remote repository is ahead of your local repository. Now 
 
 <r>Git merge</r><br/>
 We now have ```master branch on remote repository```  and ```master branch on local repository``` <br/>
+to merge our ```local master branch``` to ```remote master branch``` we use the following command <br/>
+
+```git merge origin/master``` <br/>
+
+<r>Git pull</r><br/>
+You can sync local files with remote using ```git pull``` command <br/>
+If you have any uncommitted files locally then first commit those changes before you use ```git pull``` command. Else it will throw error. <br/>
+
+<r>git clone</r><br/>
+This command is used if you want to save a copy of a remote repository to your local directory to start working on it. You use the following command. ```git clone url``` <br/>
+
+<r>Git branching</r><br/>
+To see the list of all current branches use ```git branch``` <br/>
+
+<r>Renaming branch</r><br/>
+We can rename our branch name using the following command. <br/>
+```git branch -M main``` <br/>
+
+Using this command we are renaming ```Master``` branch to ```main``` <br/>
+![branch renaming](pics/07.jpg)
+
+<br/>
+<r>Creating new branch</r><br/>
+We use <code>git branch name</code> to create new branch. <br/>
+
+![creating branch](pics/08.jpg)
+
+<br/>
+As you can see we created new branch called <code>vivek</code> and  using <code>git branch</code> command we can see that <code>main</code> is highlighted in green. That means we are currently on <code>main branch</code><br/>
+
+<r>Deleting a branch</r><br/>
+We use the following command.
+<code>git branch -d branchname</code>
+<br/>
+For the sake of argument, i created branch <code>atheena</code> <br/>
+![creating branch atheena](pics/09.jpg) <br/>
+
+using command <code>git branch -d atheena</code> we deleted <code>atheena</code> branch. <br/>
+![deteled branch](pics/10.jpg) <br/>
+
+if you use <code>-d</code> it will detele branch only if the branch was not merged with master branch. If you want to delete a branch that was merged with master use <code>-D</code>
 
